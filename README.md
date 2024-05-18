@@ -8,11 +8,4 @@ This project implements a medical chatbot that can answer common medical questio
 ### Running the Chat Interface
 To run the chat interface, use the following command:
 
-```streamlit run ui_chat_interface.py``
-
-
-
-
-
-
-Medical Chatbot
+```streamlit run ui_chat_interface.py```
