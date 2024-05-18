@@ -1,7 +1,7 @@
-from state_3 import StateManager
+from ui_state_manager import StateManager
 import string, random
 import streamlit as st
-from message_components import UserMessage, BotMessage
+from ui_message_components import UserMessage, BotMessage
 import time
 from typing import Dict, Any
 

@@ -1,11 +1,11 @@
 import streamlit as st
-from chat_components_5 import ChatManager
-from model import MedicalChatBot
+from ui_chat_components import ChatManager
+from ml_model_initialization import MedicalChatBot
 
 @st.cache_resource
 def initialize_llm_model():
     # Initialize your chatbot
-    VECTOR_STORE_PATH = "vector_store1"
+    VECTOR_STORE_PATH = "vector_store"
     LLM_MODEL_NAME = 'llama-2-7b-chat.ggmlv3.q8_0.bin'
     LLM_MODEL_TYPE = 'llama'
 
