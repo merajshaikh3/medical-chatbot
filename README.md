@@ -1,2 +1,2 @@
-# medical-chatbot
+# Medical Chatbot
 Medical Chatbot
