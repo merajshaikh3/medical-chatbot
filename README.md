@@ -26,3 +26,9 @@ Note: Only PDF files are supported for now. The processed embeddings will be sto
 ### ML Files
 * ml_data_ingestion.py: Processes PDF files in the "data" folder and converts them into vector embeddings.
 * ml_model_initialization.py: Contains classes required to initialize and access the LLM model. You'll need to download the lama-2-7b-chat.ggmlv3.q8_0.bin model from Hugging Face.
+
+## Requirements
+* Streamlit
+* Langchain
+* FAISS
+* Hugging Face Transformers (for model initialization)
