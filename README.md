@@ -8,7 +8,8 @@ This project implements a medical chatbot that can answer common medical questio
 ### Running the Chat Interface
 To run the chat interface, use the following command:
 
-```streamlit run ui_chat_interface.py```
+```bash
+streamlit run ui_chat_interface.py```
 
 ### Data Ingestion
 To process PDF files and convert them into vector embeddings, use the following command:
